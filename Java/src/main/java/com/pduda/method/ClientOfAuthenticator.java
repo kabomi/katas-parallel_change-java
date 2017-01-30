@@ -12,7 +12,7 @@ public class ClientOfAuthenticator {
     }
 
     public void run() {
-        boolean authenticated = authenticationService.isAuthenticated(33);
+        boolean authenticated = authenticationService.isAuthenticated(33, "USER");
         System.out.println("33 is authenticated = " + authenticated);
     }
 }
